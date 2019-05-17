@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+
+<body>
+    <div id="navigation_bar">
+        <ul>
+            <li><a class="active" href="/">Home</a></li>
+            <li><a href="/CalendarList">Calendars</a></li>
+            <li><a href="/">Add Event</a></li>
+        </ul>
+    </div>
+    <br><br>
+    <div id="content">
+        <!-- Content block -->
+        {% block content %}{% endblock %}
+    </div>
+
+    <!-- Javascript block -->
+    {% block my_javascript %}{% endblock %}
+</body>
+
+</html>

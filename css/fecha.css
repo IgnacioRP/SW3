@@ -1,0 +1,46 @@
+#block2{
+    border:3px solid #A8635A;
+    color:#fff;
+    font-family:Georgia,"Impact",Times,serif;
+    margin:20px 0px;
+    padding:20px;
+}
+
+
+#block2 h2{
+    background:#ECD078;
+    color:#020133;
+    font-size:160%;
+    font-style:normal;
+    font-weight:bold;
+    letter-spacing:-1px;
+    line-height:115%;
+    margin-top:5px;
+    padding:0;
+}
+#block2 p.details{
+    background:#020133
+}
+#block2 .date-stamp {
+    background:#FFF;
+    border:1px solid #ECD078;
+    color:#020133;
+    float:left;
+    height:62px;
+    margin:0 10px;
+    overflow:hidden;
+    padding:0;
+    width:72px;
+}
+#block2 .day {
+    font-size:22px;
+    font-weight:normal;
+    padding:7px 0 0;
+    text-align:center;
+}
+#block2 .month {
+    font-size:11px;
+    padding:2px 0 0;
+    text-align:center;
+    text-transform:uppercase;
+}

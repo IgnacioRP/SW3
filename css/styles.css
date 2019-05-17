@@ -1,0 +1,88 @@
+.clickable {
+    cursor: pointer;
+}
+
+
+.map {
+    top: 0;
+    height: 90vh;
+    width: 100%;
+}
+
+.scrollable_table thead{
+    display: block;
+}
+
+.scrollable_table tbody{
+    display: block;
+    overflow-y: scroll;
+    max-height: 50vh;
+}
+
+.scrollable_table tr, .scrollable_table td, .scrollable_table th {
+    display: flex;
+    width: 100%;
+}
+
+.buttons_table{
+    height: 10vh;
+}
+
+.map_column{
+    vertical-align: top;
+    position: fixed;
+}
+
+/* Navivation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/*
+ * Table custom style.
+ */
+.fancy_table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.fancy_table td, .fancy_table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.fancy_table tr:nth-child(even){background-color: #f2f2f2;}
+
+.fancy_table tr:hover {background-color: #ddd;}
+
+.fancy_table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}

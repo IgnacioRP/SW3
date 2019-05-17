@@ -1,0 +1,21 @@
+{% extends "template.html" %}
+
+{% block content %}
+
+<h1>Mis calendarios de Google son:</h1>
+
+<table class="fancy_table">
+    <tr>
+    <th>Nombre</th>
+    <th>ID</th>
+    </tr>
+    {% for each in items %}
+    <tr>
+        {% set url = '/Calendar?id=' + do_urlescape(each['id']) %}
+        <td><a href="{{url}}">{{each['summary']}}</a></td>
+        <td>{{each['id']}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}
